@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background-image {
+    background-image: url('/media/statue-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+nav {
+    padding: 1em 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.navbar li {
+    margin: 0 1em;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1em;
+    padding: 0.5em 1em;
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+#title {
+    font-family: 'Arial', sans-serif;
+    font-size: 100px;
+    color: white;
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 90px;
+    max-height: 100%;
+}
+
+button {
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #66000000;
+    float: right;
+}
+
+button a {
+    text-decoration: none;
+    color: #fff;
+}
